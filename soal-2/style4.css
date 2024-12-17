@@ -1,0 +1,48 @@
+.a {
+    background-color: yellow;
+    border-style: solid;
+    padding: 0 10px;
+}
+
+.k {
+    margin-bottom: 2%;
+}
+
+.l {
+    border-style: solid;
+    border-width: 2px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.n {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.i {
+    border-style: solid;
+    border-width: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    padding: 0 10px;
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.v {
+    margin-bottom: 2%;
+}

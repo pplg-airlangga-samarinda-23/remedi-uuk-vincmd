@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perhitungan Rata-rata Tinggi Badan</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+    <div class="a">
+        <h1>Soal No.2</h1>
+
+    </div>
+    <div class="k"></div>
+    <div class="l">
+        <h2>Rata-rata Tinggi Badan</h2>
+
+        <div class="n">
+            Siswa 1 :<input type="number" id="siswa1" required><br>
+        </div>
+        <div class="n">
+            Siswa 2 :<input type="number" id="siswa2" required><br>
+        </div>
+        <div class="n">
+            Siswa 3 :<input type="number" id="siswa3" required><br>
+        </div>
+        <div class="n">
+            Siswa 4 :<input type="number" id="siswa4" required><br>
+        </div>
+        <div class="n">
+            Siswa 5 :<input type="number" id="siswa5" required><br>
+
+        </div>
+        <div class="n">
+            <button onclick="hitung()">Hitung Rata-rata</button>
+        </div>
+        <div class="n">
+            Hasil:
+            <input type="text" id="hasil" readonly>
+        </div>
+            <script>
+                function hitung() {
+                    const siswa1 = parseFloat(document.getElementById('siswa1').value) || 0;
+                    const siswa2 = parseFloat(document.getElementById('siswa2').value) || 0;
+                    const siswa3 = parseFloat(document.getElementById('siswa3').value) || 0;
+                    const siswa4 = parseFloat(document.getElementById('siswa4').value) || 0;
+                    const siswa5 = parseFloat(document.getElementById('siswa5').value) || 0;
+
+                    const totalTinggi = siswa1 + siswa2 + siswa3 + siswa4 + siswa5;
+                    const rataRata = totalTinggi / 5;
+                    document.getElementById('hasil').value = rataRata.toFixed(2) + " cm";
+                }
+            </script>
+        </div>
+        <div class="v"></div>
+        <footer>
+            <div class="i">
+    
+                <h2>Copyright 2024</h2>
+                <span class="dot"></span>
+    
+    
+        </footer>
+</body>
+
+</html>
